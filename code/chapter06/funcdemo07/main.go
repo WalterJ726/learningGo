@@ -24,13 +24,11 @@ func AddUpper() func (int) int {
 // 4)strings.HasSuffix , 该函数可以判断某个字符串是否有指定的后缀。
 
 func makeSuffix(suffix string) func (string) string {
-
 	return func (name string) string {
 		//如果 name 没有指定后缀，则加上，否则就返回原来的名字
 		if !strings.HasSuffix(name, suffix)  {
 			return name + suffix
 		}
-
 		return name
 	}
 }
