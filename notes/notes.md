@@ -31,3 +31,7 @@ type myFunctype func(int, int) (int, int) // 定义myfunctype，形参有两个i
 ```
 ## 值类型和引用类型
 基本数据类型和数组默认都是值拷贝，函数内部修改不会影响原来的值
+
+
+## confusions
+go导入包的路径

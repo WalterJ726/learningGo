@@ -27,6 +27,6 @@ func main() {
 	//从终端输入一个整数打印出对应的金子塔
 	var n int 
 	fmt.Println("请输入打印金字塔的层数")
-	fmt.Scanln(&n)
+	fmt.Scanln(&n) // input
 	printPyramid(n)
 }
